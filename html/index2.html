@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        /*selector*/
+    .name{
+        color: blue;
+    }
+    ul li{/*descendant*/
+        font-size: large;
+        color: blueviolet;
+    }
+    ul>li a { /*child selector*/
+        color: brown;
+    }
+    ul+p {
+        color: green;
+    }
+    h1,ul,p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+</style>
+</head>
+<body>
+    <h1 class="name">Inline style</h1>
+    <ul>
+        <li><a href="name">name</a></li>
+        <li>Address</li>
+    </ul>
+    
+        <p>please click here.</p>
+
+</body>
+</html>
